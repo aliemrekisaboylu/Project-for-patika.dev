@@ -1,0 +1,27 @@
+--> [22,27,16,2,18,6] -> Insertion Sort
+
+The stages of the sequence for insertion sort are as follows:
+
+Step 1: [2,27,16,22,18,6]
+Step 2: [2,6,16,22,18,27]
+Step 3: [2,6,16,18,22,27]
+
+The Big-O notation for insertion sort is O(n^2).
+
+--> After the array is sorted, the number 18 will be average because it is in the middle of the array.
+That's why: Average case is covered.
+
+
+
+
+--> [7,3,5,8,2,9,4,15,6] write the first 4 steps of the sequence according to the Selection Sort.
+
+
+Step 1: The smallest element in the array, 2, is moved to the beginning of the array. 
+The array is updated as follows: [2,3,5,8,7,9,4,15,6]
+Step 2: The smallest element in the array, 3, is moved to the element after the beginning of the array.
+The array is updated as follows: [2,3,5,8,7,9,4,15,6]
+Step 3: The smallest element in the array, 4, is moved to the element two elements after the beginning of the array.
+The array is updated as follows: [2,3,4,8,7,9,5,15,6]
+Step 4: The smallest element in the array, 5, is moved to the element three elements after the beginning of the array. 
+The array is updated as follows: [2,3,4,5,7,9,8,15,6]
